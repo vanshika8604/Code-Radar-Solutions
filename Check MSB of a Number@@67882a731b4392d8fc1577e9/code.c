@@ -5,7 +5,6 @@ int main() {
     int bits = sizeof(int) * 8; // Total bits in an integer
 
     // Input the number
-    printf("Enter a number: ");
     scanf("%d", &num);
 
     // Calculate the Most Significant Bit (MSB)
@@ -13,9 +12,9 @@ int main() {
 
     // Check if MSB is set
     if (msb == 1)
-        printf("MSB of %d is set (1).\n", num);
+        printf("Set");
     else
-        printf("MSB of %d is not set (0).\n", num);
+        printf("Not Set");
 
     return 0;
 }
