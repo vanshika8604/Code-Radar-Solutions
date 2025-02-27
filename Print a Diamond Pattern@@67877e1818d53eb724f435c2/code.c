@@ -18,7 +18,7 @@ int main()
 
     for(int l=n-1;l>=1;l--)
     {
-        for(int j=1;j<=n-i;j++)
+        for(int j=1;j<=n-l;j++)
         printf(" ");
 
         for(int k=1;k<=(2*i-1);k++)
