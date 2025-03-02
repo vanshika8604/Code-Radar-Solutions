@@ -8,6 +8,8 @@ int isPrime(int a)
         c++;
 
     }
+    if (a==1)
+    return 0;
     if (c>2)
     return 0;
     else
